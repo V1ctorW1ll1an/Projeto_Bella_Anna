@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- author -->
+    <meta name="author" content="Victor Willian de Sousa" />
+    <!-- description -->
+    <meta
+      name="description"
+      content="Site de uma modelo fictícia chamada Anna Bella, desenvolvido com HTML e CSS para a faculdade 
+      Doctum de Ipatinga - MG, com o objetivo de praticar os conhecimentos adquiridos na disciplina de web"
+    />
+    <!-- keywords -->
+    <meta
+      name="keywords"
+      content="HTML, CSS, Web, Doctum, Faculdade, Ipatinga, MG, Victor, Willian, Sousa, Anna, Bella, Modelo, Fictícia,
+      Site, Web, Front-end, Frontend, Front end"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="/css/index.css" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="/imagens/icons/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- title -->
+    <title>Bella Anna - Contato</title>
+  </head>
+  <body>
+    <div class="root-wrapper">
+      <!-- header -->
+      <header class="container">
+        <img src="/imagens/capa.png" alt="Capa do site" />
+        <nav class="menu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><div class="vertical-line"></div></li>
+            <li><a href="/pages/biografia.html">Biografia</a></li>
+            <li><div class="vertical-line"></div></li>
+            <li>
+              <a href="/pages/campanhasPublicitarias.html"
+                >Campanhas publicitárias</a
+              >
+            </li>
+            <li><div class="vertical-line"></div></li>
+            <li><a href="/pages/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <!-- main -->
+      <main class="container">
+        <section class="content">
+          <h1 class="title">Contato</h1>
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="nome">Nome</label>
+              <input
+                type="text"
+                name="nome"
+                id="nome"
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div class="form-group">
+              <label for="sexo">Sexo</label>
+              <!-- radio -->
+              <div class="radio">
+                <input
+                  type="radio"
+                  checked
+                  name="sexo"
+                  id="masculino"
+                  value="masculino"
+                />
+                <label class="radio-label" for="masculino">Masculino</label>
+
+                <input
+                  type="radio"
+                  name="sexo"
+                  id="feminino"
+                  value="feminino"
+                />
+                <label class="radio-label" for="feminino">Feminino</label>
+
+                <input type="radio" name="sexo" id="outro" value="outro" />
+                <label class="radio-label" for="outro">Outro</label>
+
+                <input
+                  type="radio"
+                  name="sexo"
+                  id="naoInformar"
+                  value="naoInformar"
+                />
+                <label class="radio-label" for="naoInformar"
+                  >Prefiro não informar</label
+                >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço</label>
+              <input
+                type="text"
+                name="endereco"
+                id="endereco"
+                placeholder="Digite seu endereço"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="telefone"> Telefone </label>
+              <input
+                type="tel"
+                name="telefone"
+                id="telefone"
+                placeholder="Digite seu telefone"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email"> E-mail </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="comentario"> Comentário </label>
+              <textarea
+                name="comentario"
+                id="comentario"
+                placeholder="Digite seu comentário"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <div class="form-group d-flex flex-row flex-reverse gap-1">
+              <input class="submit" type="submit" value="Enviar" />
+              <input class="reset" type="reset" value="Redefinir" />
+            </div>
+
+            <div class="contacts">
+              <address>
+                <b>E-mail:</b>
+                <a href="mailto:teste@teste.com">contato@annabella.com.br</a
+                ><br />
+                <b>Telefone:</b>
+                <a href="tel:+99999999999">(99) 99999-9999</a>
+              </address>
+            </div>
+          </form>
+        </section>
+      </main>
+      <!-- footer -->
+      <footer class="footer">
+        <h4>Todos os direitos reservados</h4>
+      </footer>
+    </div>
+  </body>
+</html>

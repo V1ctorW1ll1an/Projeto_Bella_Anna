@@ -1,0 +1,92 @@
+form {
+  padding: 3.5rem;
+}
+form .form-group {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+}
+form .form-group label {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+form .form-group input {
+  font-size: 1.6rem;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #8b8a8b;
+  min-height: 3.5rem;
+  border-radius: 0.4rem;
+  outline: none;
+  color: #6c6c62;
+}
+form .form-group input:focus {
+  outline: none;
+  box-shadow: 0 0.4rem 0.2rem -0.2rem #c5c5b2;
+}
+form .form-group textarea {
+  min-height: 10rem;
+  resize: none;
+  background-color: transparent;
+}
+form .form-group textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #a89991;
+}
+form .form-group .radio {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+form .form-group .radio label {
+  font-size: 1.2rem;
+  margin: 0 0 0 1rem;
+  cursor: pointer;
+}
+form .form-group .radio input {
+  font-size: 2rem;
+  border: 1px solid #ccc;
+  max-width: 2.2rem;
+  width: 100%;
+}
+form .form-group .radio input:not(:first-child) {
+  margin-left: 3rem;
+}
+form .form-group input.reset {
+  background-color: #ccc;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  max-width: 100px;
+  width: 100%;
+}
+form .form-group input.reset:hover {
+  background-color: #e6e6e6;
+}
+form .form-group input.submit {
+  max-width: 100px;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #a89991;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-color: #a89991;
+}
+form .form-group input.submit:hover {
+  background-color: #c5c5b2;
+}/*# sourceMappingURL=contact.css.map */
